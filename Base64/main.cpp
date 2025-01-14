@@ -16,7 +16,7 @@ int main() {
     std::cout << "Encoded: " << Encoded_data << std::endl;
 
     // 使用 Base64 类的静态方法进行解码
-    std::string Decoded_data = Base64::Decode(input);
+    std::string Decoded_data = Base64::Decode(Encoded_data);
     std::cout << "Decoded: " << Decoded_data << std::endl;
 
     return 0;
